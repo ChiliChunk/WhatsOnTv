@@ -1,29 +1,14 @@
 {
-
-    "manifest_version": 2,
-    "name": "WhatsOnTv",
-    "version": "1.0",
-  
-    "description": "Ajoute une icône à la barre d'outil pour une action navigateur. Cliquez sur le bouton pour choisir une bête. Le contenu de l'onglet actif sera alors remplacé par une image de la bête choisie. Voir https://developer.mozilla.org/fr/Add-ons/WebExtensions/Examples#beastify",
-    "homepage_url": "https://github.com/mdn/webextensions-examples/tree/master/beastify",
-    "icons": {
-      "48": "icons/wot.png"
-    },
-  
-    "permissions": [
-      "activeTab"
-    ],
-  
-    "browser_action": {
-      "default_icon": "icons/beasts-32.png",
-      "default_title": "Beastify",
-      "default_popup": "popup/choose_beast.html"
-    },
-  
-    "web_accessible_resources": [
-      "beasts/frog.jpg",
-      "beasts/turtle.jpg",
-      "beasts/snake.jpg"
-    ]
+  "name": "whatsontv",
+  "description": "Keep track of your favorite streamers",
+  "version": "1.0.0",
+  "manifest_version": 2,
+  "homepage_url": "https://github.com/ChiliChunk/whatsontv",
+  "browser_action": {
+    "default_popup": "build/static/index.html",
+    "default_title": "Whats on TV"
+  },
+  "icons": {
+    "48": "icons/wot.png"
   }
-  
+}
